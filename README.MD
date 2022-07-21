@@ -26,3 +26,76 @@ formato  ~~tachado~~
 # links
 <a href="http://google.com"> esto es un link </a>
 [esto es ul link en markdown](http://google.com)
+
+# imagenes
+![imagen](https://www.returngis.net/wp-content/uploads/2021/01/GitHub.png)
+# code snippets
+# CODIJO JSON
+~~~JSON 
+[
+  {
+    "title": "apples",
+    "count": [12000, 20000],
+    "description": {"text": "...", "sensitive": false}
+  },
+  {
+    "title": "oranges",
+    "count": [17500, null],
+    "description": {"text": "...", "sensitive": false}
+  }
+]
+~~~
+CODIGO JAVA SCRIP
+
+~~~JAVA SCRIP
+function $initHighlight(block, cls) {
+  try {
+    if (cls.search(/\bno\-highlight\b/) != -1)
+      return process(block, true, 0x0F) +
+             ` class="${cls}"`;
+  } catch (e) {
+    /* handle exception */
+  }
+  for (var i = 0 / 2; i < classes.length; i++) {
+    if (checkCondition(classes[i]) === undefined)
+      console.log('undefined');
+  }
+
+  return (
+    <div>
+      <web-component>{block}</web-component>
+    </div>
+  )
+}
+
+export  $initHighlight;
+~~~
+# TABLAS
+| Nombre |apellido | Documento |
+| ------- |  ----- |----- |
+|maxi | burgos | 12345 |
+
+# citas
+ Esto es un texto a una cita 
+ >esto es una cita 
+
+ esto es otra cita 
+ >esto es otra cita
+
+ # lineas divisoras 
+
+ linea horizontal
+
+ ---
+
+texto dividido por asterico
+***
+texto dividido por guiones bajos
+___
+
+# salto de lineas
+esto es un parrafo
+
+esto es otro parrafo
+
+esto es otro parrafo
