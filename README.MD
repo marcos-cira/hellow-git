@@ -9,3 +9,9 @@ underline 1
 
 underline 2
 ============
+
+- letra *italica* de la primer forma
+- letra _italica_ de la segunda forma
+- formato primer forma**strong**
+- formato segunda forma forma __strong__
+formato  ~~tachado~~
